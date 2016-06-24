@@ -30,7 +30,7 @@ Ext.define('tvip.proxy.YiiRestProxy', {
 INSTALLATION
 ------------
 ~~~
-composer require tvip/yii2-rest-extjs
+composer require tvip/yii2-extjs-rest
 ~~~
 
 USE
