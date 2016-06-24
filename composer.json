@@ -1,0 +1,32 @@
+{
+    "name": "tvip/yii2-extjs-rest",
+    "description": "REST API for Sencha ExtJS 5+",
+    "type": "yii2-extension",
+    "keywords": ["yii2", "yii 2", "extjs", "extjs6", "extjs5", "rest", "sencha", "API"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Glubyshev Stanyslav",
+            "email": "gsv@tvip.ru",
+            "homepage": "http://www.tvip.ru"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/tvip/yii2-extjs-rest/issues?state=open",
+        "source": "https://github.com/tvip/yii2-extjs-rest"
+    },
+    "require": {
+        "yiisoft/yii2": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "tvip\\ExtJsRest\\": "src/"
+        }
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
