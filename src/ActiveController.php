@@ -21,7 +21,7 @@ class ActiveController extends BaseController
     {
         return [
             'index' => [
-                'class' => 'Tpg\ExtJsRest\actions\IndexAction',
+                'class' => 'tvip\ExtJsRest\actions\IndexAction',
                 'modelClass' => $this->modelClass,
                 'checkAccess' => [$this, 'checkAccess'],
             ],
@@ -31,13 +31,13 @@ class ActiveController extends BaseController
                 'checkAccess' => [$this, 'checkAccess'],
             ],
             'create' => [
-                'class' => 'Tpg\ExtJsRest\actions\CreateAction',
+                'class' => 'tvip\ExtJsRest\actions\CreateAction',
                 'modelClass' => $this->modelClass,
                 'checkAccess' => [$this, 'checkAccess'],
                 'scenario' => $this->createScenario,
             ],
             'update' => [
-                'class' => 'Tpg\ExtJsRest\actions\UpdateAction',
+                'class' => 'tvip\ExtJsRest\actions\UpdateAction',
                 'modelClass' => $this->modelClass,
                 'checkAccess' => [$this, 'checkAccess'],
                 'scenario' => $this->updateScenario,
